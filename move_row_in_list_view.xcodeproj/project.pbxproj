@@ -6,14 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CB9F5A6E2FD5CD9F00A98E90 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB9F5A6D2FD5CD9400A98E90 /* .gitignore */; };
+		CB9F5A702FD5CDC500A98E90 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CB9F5A6F2FD5CDBC00A98E90 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CB1164CD2FD4E9D00040782C /* move_row_in_list_view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = move_row_in_list_view.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9F5A6D2FD5CD9400A98E90 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CB9F5A6F2FD5CDBC00A98E90 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CB1164CF2FD4E9D00040782C /* move_row_in_list_view */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = move_row_in_list_view;
+			sourceTree = "<group>";
+		};
+		CB9F5A5A2FD5C9D000A98E90 /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +44,9 @@
 		CB1164C42FD4E9D00040782C = {
 			isa = PBXGroup;
 			children = (
+				CB9F5A6F2FD5CDBC00A98E90 /* README.md */,
+				CB9F5A6D2FD5CD9400A98E90 /* .gitignore */,
+				CB9F5A5A2FD5C9D000A98E90 /* assets */,
 				CB1164CF2FD4E9D00040782C /* move_row_in_list_view */,
 				CB1164CE2FD4E9D00040782C /* Products */,
 			);
@@ -62,6 +77,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				CB1164CF2FD4E9D00040782C /* move_row_in_list_view */,
+				CB9F5A5A2FD5C9D000A98E90 /* assets */,
 			);
 			name = move_row_in_list_view;
 			packageProductDependencies = (
@@ -109,6 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB9F5A6E2FD5CD9F00A98E90 /* .gitignore in Resources */,
+				CB9F5A702FD5CDC500A98E90 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
